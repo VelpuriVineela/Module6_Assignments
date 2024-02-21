@@ -1,0 +1,18 @@
+{
+  "name": "day3_homework",
+  "version": "1.0.0",
+  "description": "A Collection of useful array higher-order functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "utility",
+    "higher-order",
+    "function"
+  ],
+  "author": "vineela",
+  "license": "ISC"
+}
