@@ -22,18 +22,6 @@ const getDataFromAmazon = async () => {
     // console.log(response.data);
     const $ = cheerio.load(response.data);
 
-    // $("div._2kHMtA").each((index, data) => {
-    //   const productName = $(data).find("div._4rR01T").text();
-    //   const productPrice = $(data).find("div._30jeq3._1_WHN1").text();
-
-    //   if (productName && productPrice) {
-    //     products.push({
-    //       name: productName.trim(),
-    //       price: productPrice.trim(),
-    //     });
-    //   }
-    // });
-
     $("div._2kHMtA").each((index, element) => {
       const productName = $(element).find("div._4rR01T").text().trim();
       const productPrice = $(element).find("div._30jeq3._1_WHN1").text().trim();
