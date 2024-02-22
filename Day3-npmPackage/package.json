@@ -1,0 +1,17 @@
+{
+  "name": "day3-npmpackage",
+  "version": "1.0.0",
+  "description": "A simple binary search algorithm implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binary search",
+    "algorithm",
+    "search"
+  ],
+  "author": "vineela",
+  "license": "ISC"
+}
